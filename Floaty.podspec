@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/kciter/Floaty"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "kciter" => "kciter@naver.com" }
-  s.source       = { :git => "https://github.com/kciter/Floaty.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/jeannustre/Floaty.git", :tag => "#{s.version}" }
   s.platform     = :ios, '8.0'
   s.source_files = 'Sources/*.{swift}'
   s.frameworks   = 'UIKit', 'Foundation'
